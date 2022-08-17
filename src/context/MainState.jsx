@@ -4,12 +4,29 @@ import MainContext from "./mainContext"
 export default function MainState({ children }) {
   const [isDark, setIsDark] = useState(false)
 
-  const colors = {
-    greenLight: "#78be1e",
-    greenDark: "#019e43",
-    blueLight: "#0182c6",
-    blueDark: "#1d4f9b",
-  }
+  const colors = [
+    {
+      id: 1,
+      name: "greenLight",
+      value: "#78be1e",
+    },
+    {
+      id: 2,
+      name: "greenDark",
+      value: "#019e43",
+    },
+    {
+      id: 3,
+      name: "blueLight",
+      value: "#0182c6",
+    },
+    {
+      id: 4,
+      name: "blueDark",
+      value: "#1d4f9b",
+    }
+  ]
+
 
   return (
     <MainContext.Provider

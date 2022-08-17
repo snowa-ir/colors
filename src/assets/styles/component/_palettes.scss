@@ -1,0 +1,10 @@
+.palettes {
+  padding: 2rem 0;
+
+  &__item {
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+}
