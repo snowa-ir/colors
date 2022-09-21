@@ -6,5 +6,10 @@
     height: 128px;
     display: inline-block;
     border-radius: 50%;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1rem solid #fff;
+    margin-right: 1rem;
   }
 }
